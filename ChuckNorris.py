@@ -1,6 +1,6 @@
 import APICall
 
-class ChuckNorris(APICall):
+class ChuckNorris(APICall.APICall):
     ''' This is the ChuckNorris API, since those jokes are still, and have always been, the best. '''
 
     def __init__(self):

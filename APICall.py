@@ -5,7 +5,9 @@ class APICall:
     
     def call(self, method, api_url):
         if method.lower() == 'get':
-            self.get(api_url)
+            return self.get(api_url)
+        else:
+            print(f'Method {method} not supported.')
         
 
     def get(self, api_url):
